@@ -10,7 +10,7 @@ export default function FormularioCadastroCliente(props){
                     <div className="input-field col s6">
                         <input id="nomeSocial" name='nomesocial' type="text" className="validate" placeholder="Nome Social"/>
                     </div>
-
+                    
                     <div className="input-field col s6">
                         <input id="cpf" name='cpf' type="text" className="validate" placeholder="CPF"/>
                     </div>
@@ -18,9 +18,16 @@ export default function FormularioCadastroCliente(props){
                     <div className="input-field col s6">
                         <input id="rgs" name='rgs' type="text" className="validate" placeholder="rgs" />
                     </div>
+                    <div className="input-field col s6">
+                        <input id="rgs" name='telefone' type="text" className="validate" placeholder="telefone" />
+                    </div>
+                    <div className="input-field col s6">
+                            <input id="Pgenero" type="text" className="validate" />
+                            <label htmlFor="Pgenero">Gênero</label>
+                        </div>
                 </div>
                 <div className="row">
-
+                
                 <div className="input-field col s6">
                         <input id="dataCadastro" name='datacadastro' type="text" className="validate" placeholder="Data Cadastro"/>
                     </div>
